@@ -16,7 +16,7 @@ Es una aplicación web fullstack que replica un módulo real de licitaciones:
 - Puedes **exportar el listado a Excel** directamente desde el backend
 
 
-![Lista de Licitaciones](./src/assets/listalicitaciones.png)
+![Lista de Licitaciones](./frontend/src/assets/listalicitaciones.png)
 
 
 ---
@@ -175,7 +175,7 @@ Ejecuta el script en tu gestor de base de datos o directamente desde la terminal
 mysql -u root -p < bd/schema.sql
 ```
 
-![Tablas creadas ](./src/assets/tables.png)
+![Tablas creadas ](./frontend/src/assets/tables.png)
 
 ### 4. Cargar el catálogo de actividades
 
@@ -253,7 +253,7 @@ http://localhost:5173
 4. Haz clic en **Guardar** — el sistema genera automáticamente el consecutivo
    con el formato `PO-0001-25`
 
-![Licitaciones creadas](./src/assets/listalicitaciones.png)
+![Licitaciones creadas](./frontend/src/assets/listalicitaciones.png)
 
 ### Editar una licitación y agregar documentos
 
@@ -264,7 +264,7 @@ http://localhost:5173
 5. Haz clic en **Agregar** para vincularlo a la licitación
 6. Haz clic en **Actualizar** para guardar todos los cambios
 
-![Agregar documento](./src/assets/editlicitaciones.png)
+![Agregar documento](./frontend/src/assets/editlicitaciones.png)
 
 
 ### Ver el detalle de una licitación
@@ -273,7 +273,7 @@ http://localhost:5173
 2. Navega entre las pestañas: Información Básica, Cronograma y Documentos
 3. Desde aquí también puedes ir directamente a editar
 
-![Detalles de licitacion](./src/assets/detalleslicitacion.png)
+![Detalles de licitacion](./frontend/src/assets/detalleslicitacion.png)
 
 ### Exportar a Excel
 
@@ -493,4 +493,4 @@ como descarga de archivo binario.
 
 ## Autor
 
-Julian Mateo — [github.com/matteorudas](https://github.com/matteorudas)
+Julian Mateo Rudas Bernal  — [github.com/matteorudas](https://github.com/matteorudas)

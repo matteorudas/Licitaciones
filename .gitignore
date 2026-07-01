@@ -1,0 +1,14 @@
+# Dependencias
+backend/vendor/
+frontend/node_modules/
+
+# Variables de entorno
+backend/.env
+
+# Archivos subidos por usuarios
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
